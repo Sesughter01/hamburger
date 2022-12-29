@@ -143,3 +143,39 @@ span::after{
 .nav-open .menuButtonContainer span::after{
     opacity: 0;
 }
+
+/* On large width screens */
+@media(min-width:880px){
+    .menuButtonContainer{
+        display: none;
+    }
+    
+    .desktop{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+    .navbar{
+        position: static;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        background-color:transparent;
+        
+        transform: translateX(0%);
+        
+        
+    }
+
+    .navbar .list{
+        display: flex;
+        position: static;
+        background-color: transparent;
+        padding: 0;
+        gap: 1rem;
+        
+    }
+    .navbar .list .list-item
+    
+}
